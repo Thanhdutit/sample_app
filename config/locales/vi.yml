@@ -1,0 +1,17 @@
+vi:
+  help: "Hỗ trợ"
+  hello: "Xin chào, thế giới!"
+  sample: "Ứng dụng mẫu"
+  home: "Trang chủ"
+  login: "Đăng nhập"
+  titles:
+    base: "Ứng Dụng Mẫu Hướng Dẫn Ruby on Rails"
+    base1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại trang"
+    base2: "trợ giúp Hướng dẫn Rails"
+    base3: "Để nhận trợ giúp về ứng dụng mẫu này"
+    base4 : "hãy xem Hướng dẫn Ruby on Rails"
+    base5: "Đây là trang chủ dành cho"
+    base6: "Hướng dẫn về Ruby on Rails"
+    base7: "ứng dụng mẫu."
+  English: "Tiếng anh"
+  Vietname: "Tiếng Việt"
