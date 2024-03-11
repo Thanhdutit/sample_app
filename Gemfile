@@ -48,6 +48,8 @@ gem "rails-i18n"
 # Use Sass to process CSS
 # gem "sassc-rails"
 
+gem "byebug", platforms: %i(mri mingw x64_mingw)
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html]
 # gem "image_processing", "~> 1.2"
 

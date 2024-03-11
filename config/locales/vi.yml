@@ -15,3 +15,14 @@ vi:
     base7: "ứng dụng mẫu."
   English: "Tiếng anh"
   Vietname: "Tiếng Việt"
+  Signup:
+    signup: "Đăng ký"
+    name: "Tên"
+    email: "Email"
+    password: "Mật khẩu"
+    confirmation: "Xác nhận mật khẩu"
+    create: "Tạo tài khoản"
+  error:
+    the_form_contains: "biểu mẫu chứa"
+    title: "tiêu đề"
+    messages : "Tạo tài khoản thành công"
