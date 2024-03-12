@@ -3,7 +3,6 @@ en:
   help: "Help"
   sample: "Sample App"
   home: "Home"
-  login: "log in"
   titles:
     base: "Ruby on Rails Tutorial Sample App"
     base1: "Get help on the Ruby on Rails Tutorial at the"
@@ -23,7 +22,20 @@ en:
     confirmation: "confirmation"
     create: "Create my account"
     the_form_contains: "the_form_contains"
+  login:
+    login: "Login"
+    email: "Email"
+    password: "Password"
+    signin: "sign_up_now!"
+    new: "new_user?"
+    err : "nvalid_email_password_combination"
+    user: "user"
+    account: "Accout"
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Log out"
   error:
     the_form_contains: "the_form_contains"
     title: "title"
     messages : "User created successul"
+    mes_err: "Not found user!"

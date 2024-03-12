@@ -50,6 +50,8 @@ gem "rails-i18n"
 
 gem "byebug", platforms: %i(mri mingw x64_mingw)
 
+gem "jquery-rails"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html]
 # gem "image_processing", "~> 1.2"
 
