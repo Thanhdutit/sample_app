@@ -3,7 +3,6 @@ vi:
   hello: "Xin chào, thế giới!"
   sample: "Ứng dụng mẫu"
   home: "Trang chủ"
-  login: "Đăng nhập"
   titles:
     base: "Ứng Dụng Mẫu Hướng Dẫn Ruby on Rails"
     base1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại trang"
@@ -22,7 +21,20 @@ vi:
     password: "Mật khẩu"
     confirmation: "Xác nhận mật khẩu"
     create: "Tạo tài khoản"
+  login:
+    login: "Đăng nhập"
+    email: "Email"
+    password: "Mật khẩu"
+    signin: "Đăng ký ngay!"
+    new: "Người dùng mới?"
+    err: "mật khẩu email không hợp lệ"
+    user: "Người dùng"
+    account: "Tài khoản"
+    profile: "Thông tin"
+    settings: "Cài đặt"
+    logout: "Đăng xuất"
   error:
     the_form_contains: "biểu mẫu chứa"
     title: "tiêu đề"
     messages : "Tạo tài khoản thành công"
+    mes_err: "Không tìm thấy người dùng"

@@ -1,5 +1,5 @@
 @import 'bootstrap-sprockets';
-@import 'bootstrap';
+@import "bootstrap";
 
 /* universal */
 body {
@@ -92,5 +92,14 @@ input {
   @extend .has-error;
   .form-control {
     color: $state-danger-text;
+  }
+}
+/* Dropdown menu */
+.dropdown-menu.active {
+  display: block;
+  button {
+    border: none;
+    width: 100%;
+    background-color: white;
   }
 }

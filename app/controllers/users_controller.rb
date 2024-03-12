@@ -3,7 +3,7 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
     return if @user
 
-    flash[:warning] = "Not found user!"
+    flash[:warning] = t("error.mes_err")
     redirect_to root_path
   end
 
@@ -16,6 +16,8 @@ class UsersController < ApplicationController
 
     if @user.save
       # something
+      reset_session
+      log_in @user
       flash[:success] = t("error.messages")
       redirect_to @user, status: :see_other
     else
