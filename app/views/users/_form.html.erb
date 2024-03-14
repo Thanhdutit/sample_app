@@ -1,0 +1,12 @@
+<%= form_for @user do |f| %>
+  <%= render "shared/error_messages" %>
+  <%= f.label :name, t("Signup.name") %>
+  <%= f.text_field :name, class: "form-control" %>
+  <%= f.label :email, t("Signup.email") %>
+  <%= f.email_field :email, class: "form-control" %>
+  <%= f.label :password, t("Signup.password") %>
+  <%= f.password_field :password, class: "form-control" %>
+  <%= f.label :password_confirmation, t("Signup.confirmation") %>
+  <%= f.password_field :password_confirmation, class: "form-control" %>
+  <%= f.submit t("Signup.save"), class: "btn btn-primary" %>
+<% end %>

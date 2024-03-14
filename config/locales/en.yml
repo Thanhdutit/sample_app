@@ -22,6 +22,7 @@ en:
     confirmation: "confirmation"
     create: "Create my account"
     the_form_contains: "the_form_contains"
+    save: "Save changes"
   login:
     login: "Login"
     email: "Email"
@@ -40,3 +41,11 @@ en:
     title: "title"
     messages : "User created successul"
     mes_err: "Not found user!"
+  user:
+    delete_true: "User deleted"
+    delete_fail: "Delete fail!"
+    update: "Update success"
+    login: "Please log in."
+    correct: "You cannot edit this account."
+    delete: "You sure?"
+    admin: "You must be an admin to access that page."
